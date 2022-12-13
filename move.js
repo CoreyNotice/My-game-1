@@ -3,8 +3,8 @@
        
        function move1() {
     const movepic = [
-        { transform: 'translateY(25%)' },
-        { transform: 'translateX(25%)' }];
+        // { transform: 'translateY(25%)' },
+        { transform: 'translate(0,80%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
@@ -22,8 +22,8 @@ function move2(){
 
     const movepic = [
     
-        { transform: 'translateY(50%)' },
-        { transform: 'translateX(50%)' }];
+        // { transform: 'translateY(50%)' },
+        { transform: 'translate(70%,80%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
