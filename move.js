@@ -1,35 +1,39 @@
 
 
-function f() {
+       
+       function move1() {
     const movepic = [
-        { transform: 'translateY(0px)' },
-        { transform: 'translateY(300px)' }]
+        { transform: 'translateY(25%)' },
+        { transform: 'translateX(25%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
         fill: 'forwards'
 
-     }
-     const move = document.querySelector("#pic")
+     };
+     const move = document.querySelector("#pic");
     //  move.addEventListener('click', () => {
         move.animate(movepic,newspaperTiming);
-   // })
+       setTimeout(()=>{question2()
+       },3000);
 }
 
-function f2(){
+function move2(){
+
     const movepic = [
-        { transform: 'translateX(0px)' },
-        { transform: 'translateX(200px)' }]
+    
+        { transform: 'translateY(50%)' },
+        { transform: 'translateX(50%)' }];
      const newspaperTiming = {
-        duration: 2000,
+        duration: 3000,
         iterations: 1,
         fill: 'forwards'
 
-     }
-     const move = document.querySelector("#pic")
+     };
+     const move = document.querySelector("#pic");
         move.animate(movepic,newspaperTiming);
 }
-function _f(){
+       function _f(){
     const movepic = [
         { transform: 'translateY(0px)' },
         { transform: 'translateY(-300px)' }]
@@ -42,5 +46,6 @@ function _f(){
      const move = document.querySelector("#pic")
     //  move.addEventListener('click', () => {
         move.animate(movepic,newspaperTiming);
-   // })
+        
 }
+ 

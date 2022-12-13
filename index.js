@@ -14,7 +14,8 @@ function myFunction() {
     let favDrink = prompt("Who is the first president of the United States?");
     switch(favDrink) {
       case 'George Washington': 
-        f()
+        move1()
+        text= 'yes'
     
         break;
         default:
@@ -23,14 +24,13 @@ function myFunction() {
 document.getElementById("Charctername").innerHTML = text
 }
 
-function question2(){
+function question2 (){
     let text;
     let favDrink = prompt("How much states are in the United States?");
     switch(favDrink) {
       case '50': 
-        f2()
+        move2()
         break;
         default:
             _f();
 }}
-
