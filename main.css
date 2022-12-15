@@ -10,3 +10,6 @@
 #quest3{
     transform: translate(-200%,200%)
 }
+body {
+    background-color: lightblue;
+  }

@@ -51,7 +51,7 @@ function question3 (){
     switch(favDrink) {
         case 'Russell Westbrook': 
         move4()
-        text= 'Genius!!Russell Westbrook has 194  triple-doubles. Crazy Right!!!'
+        text= 'Genius!!Russell Westbrook has 194 triple-doubles. Crazy Right!!!'
         break;
         default:
             move_4();

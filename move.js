@@ -106,7 +106,7 @@ function move_4(){
     const movepic = [
     
         // { transform: 'translateY(50%)' },
-        { transform: 'translate(300%,300%)' }];
+        { transform: 'translate(-10%,100%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
