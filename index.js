@@ -15,11 +15,14 @@ function myFunction() {
     switch(favDrink) {
       case 'George Washington': 
         move1()
-        text= 'yes'
+        text= 'Yes, guess you are pretty clever!'
     
         break;
-        default:
+        default: 
             text = 'I have never heard of that one..';
+            setTimeout(() => {
+                question1();
+              }, 3000)
      }
 document.getElementById("Charctername").innerHTML = text
 }
@@ -30,40 +33,72 @@ function question2 (){
     switch(favDrink) {
       case '50': 
         move2()
+        text='One small question for me, one large step to practice!!! '
         break;
         default:
-            move_2();
-}}
+            move_2()
+            text='I am never getting to practice. '
+            setTimeout(() => {
+                question1();
+              }, 3000)
+            document.getElementById("Charctername").innerHTML = text
+}
+document.getElementById("Charctername").innerHTML = text
+}
 function question3 (){
     let text;
     let favDrink = prompt("Who has the most triple-doubles in NBA history?");
     switch(favDrink) {
         case 'Russell Westbrook': 
-        move3()
-        text= 'Genius!!Russell Westbrook has 194  triple-doubles. Crazy Right!!!'
-        break;
-        default:
-            move_3();
-}}
-function question4 (){
-    let text;
-    let favDrink = prompt("What is the Pi eqaul ?(to the hundredth place of a demical.) ");
-    switch(favDrink) {
-        case '3.14': 
         move4()
         text= 'Genius!!Russell Westbrook has 194  triple-doubles. Crazy Right!!!'
         break;
         default:
             move_4();
-}}
+            text=' Bro, I thought you played basketball!!!'
+            setTimeout(() => {
+                question2();
+              }, 3000)
+            
+}document.getElementById("Charctername").innerHTML = text
+}
+// function question4 (){
+//     let text;
+//     let favDrink = prompt("What is the Pi eqaul ?(to the hundredth place of a demical.) ");
+//     switch(favDrink) {
+//         case '3.14': 
+//          move4()
+//          text= 'Showing off that math knowledge I see'
+//         break;
+//         default:
+//           move_4();
+//           text='Wrong!!!!!'
+//           setTimeout(() => {
+//             question3();
+//           }, 3000)
+            
+// }     document.getElementById("Charctername").innerHTML = text
+// }
 function question5 (){
     let text;
     let favDrink = prompt("What does PEMDAS mean in math?(commas after answer!!) ");
     switch(favDrink) {
         case 'parenthesis, exponents, multiplication, division, addition, subtraction': 
         move5()
-        text= 'Genius!!Russell Westbrook has 194  triple-doubles. Crazy Right!!!'
+        text= 'I know I liked you!!!'
+        setTimeout(() => {
+            youWon();
+          }, 3000)
         break;
         default:
             move_5();
-}}
+            text='Nope!!!! LOL'
+            setTimeout(() => {
+                question3();
+              }, 3000)
+                        
+}     document.getElementById("Charctername").innerHTML = text
+}
+function youWon(){
+    let won=window.alert('Congrats You Made it to practice on time!!!!!')
+}

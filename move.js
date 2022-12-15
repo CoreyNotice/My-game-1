@@ -4,7 +4,7 @@
        function move1() {
     const movepic = [
         // { transform: 'translateY(25%)' },
-        { transform: 'translate(0,80%)' }];
+        { transform: 'translate(-10%,100%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
@@ -23,7 +23,7 @@ function move2(){
     const movepic = [
     
         // { transform: 'translateY(50%)' },
-        { transform: 'translate(150%,100%)' }];
+        { transform: 'translate(150%,200%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
@@ -51,45 +51,45 @@ function move2(){
         move.animate(movepic,newspaperTiming);
         
 }
-function move3(){
+// function move3(){
 
-    const movepic = [
+//     const movepic = [
     
-        // { transform: 'translateY(50%)' },
-        { transform: 'translate(400%,250%)' }];
-     const newspaperTiming = {
-        duration: 3000,
-        iterations: 1,
-        fill: 'forwards'
+//         // { transform: 'translateY(50%)' },
+//         { transform: 'translate(300%,300%)' }];
+//      const newspaperTiming = {
+//         duration: 3000,
+//         iterations: 1,
+//         fill: 'forwards'
      
-     };
-     const move = document.querySelector("#pic");
-        move.animate(movepic,newspaperTiming);
-        setTimeout(()=>{question4()
-        },3000);
-}
-function move_3(){
-// back to move2
-    const movepic = [
+//      };
+//      const move = document.querySelector("#pic");
+//         move.animate(movepic,newspaperTiming);
+//         setTimeout(()=>{question4()
+//         },3000);
+// }
+// function move_3(){
+// // back to move2
+//     const movepic = [
     
-        // { transform: 'translateY(50%)' },
-        { transform: 'translate(150%,100%)' }];
-     const newspaperTiming = {
-        duration: 3000,
-        iterations: 1,
-        fill: 'forwards'
+//         // { transform: 'translateY(50%)' },
+//         { transform: 'translate(150%,200%)' }];
+//      const newspaperTiming = {
+//         duration: 3000,
+//         iterations: 1,
+//         fill: 'forwards'
 
-     };
-     const move = document.querySelector("#pic");
-        move.animate(movepic,newspaperTiming);
+//      };
+//      const move = document.querySelector("#pic");
+//         move.animate(movepic,newspaperTiming);
       
-}
+// }
 function move4(){
 
     const movepic = [
     
         // { transform: 'translateY(50%)' },
-        { transform: 'translate(800%,400%)' }];
+        { transform: 'translate(500%,300%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
@@ -106,7 +106,7 @@ function move_4(){
     const movepic = [
     
         // { transform: 'translateY(50%)' },
-        { transform: 'translate(400%,250%)' }];
+        { transform: 'translate(300%,300%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
@@ -122,7 +122,7 @@ function move5(){
     const movepic = [
     
         // { transform: 'translateY(50%)' },
-        { transform: 'translate(1000%,1000%)' }];
+        { transform: 'translate(800%,200%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
@@ -131,15 +131,14 @@ function move5(){
      };
      const move = document.querySelector("#pic");
         move.animate(movepic,newspaperTiming);
-        setTimeout(()=>{question5()
-        },3000);
+     
 }
 function move_5(){
 // back to move4
     const movepic = [
     
         // { transform: 'translateY(50%)' },
-        { transform: 'translate(800%,400%)' }];
+        { transform: 'translate(500%,300%)' }];
      const newspaperTiming = {
         duration: 3000,
         iterations: 1,
