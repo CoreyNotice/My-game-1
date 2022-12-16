@@ -10,6 +10,10 @@
 #quest3{
     transform: translate(-200%,200%)
 }
-body {
-    background-color: lightblue;
+body  {
+    background-image: url("assets/photo-1670968982569-81f78c8e841d.avif");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 800px;
   }
