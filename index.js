@@ -1,7 +1,7 @@
 function myFunction() {
     let person = prompt("Welcome to the Game!Please enter a name for your character");
     if (person != null) {
-      document.getElementById("Charctername").innerHTML =
+      document.getElementById("statement").innerHTML =
         person + "! Your have practice in an hour lets get going!!";
     }
     setTimeout(() => {

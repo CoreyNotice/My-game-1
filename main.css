@@ -1,3 +1,4 @@
+
 #basketballCourtPic{
     transform: translate(550%,200%)
 }
@@ -17,3 +18,25 @@ body  {
   background-size: cover;
   height: 800px;
   }
+#statement{
+    text-align: right;
+   font-family: 'Bungee', cursive;
+   color: red;
+    font-size: 15px;
+}
+#Charctername{
+    font-family: 'VT323', monospace;
+    font-size:  15px;
+    color: red;
+}
+#gameName{
+    text-align: center;
+    font-family: 'Mogra', cursive;
+    font: size 20px; 
+    color:blue;
+    font-weight: bolder;
+    
+}
+button{
+    justify-content: center;
+}
