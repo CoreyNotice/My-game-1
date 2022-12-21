@@ -11,13 +11,18 @@ function myFunction() {
 
  function question1() {
     let text;
-    let favDrink = prompt("Who is the first president of the United States?");
+    let favDrink = prompt("Who is the first president of the United States? (All answers in upper or lower case)");
     switch(favDrink) {
-      case 'George Washington': 
+      case 'GEORGE WASHINGTON': 
         move1()
         text= 'Yes, guess you are pretty clever!'
     
         break;
+        case 'george washington': 
+        move1()
+        text= 'Yes, guess you are pretty clever!'
+        break;
+        
         default: 
             text = 'I have never heard of that one..';
             setTimeout(() => {
@@ -29,7 +34,7 @@ document.getElementById("Charctername").innerHTML = text
 
 function question2 (){
     let text;
-    let favDrink = prompt("How much states are in the United States?");
+    let favDrink = prompt("How much states are in the United States? (All answers in numbric vaule.)");
     switch(favDrink) {
       case '50': 
         move2()
@@ -47,9 +52,13 @@ document.getElementById("Charctername").innerHTML = text
 }
 function question3 (){
     let text;
-    let favDrink = prompt("Who has the most triple-doubles in NBA history?");
+    let favDrink = prompt("Who has the most triple-doubles in NBA history? (All answers in upper or lower case)");
     switch(favDrink) {
-        case 'Russell Westbrook': 
+        case 'RUSSELL WESTBROOK': 
+        move4()
+        text= 'Genius!!Russell Westbrook has 194 triple-doubles. Crazy Right!!!'
+        break;
+        case 'russell westbrook': 
         move4()
         text= 'Genius!!Russell Westbrook has 194 triple-doubles. Crazy Right!!!'
         break;
@@ -81,9 +90,16 @@ function question3 (){
 // }
 function question5 (){
     let text;
-    let favDrink = prompt("What does PEMDAS mean in math?(commas after answer!!) ");
+    let favDrink = prompt("What does PEMDAS mean in math?(All answers in upper or lower case. Commas after each word!!) ");
     switch(favDrink) {
         case 'parenthesis, exponents, multiplication, division, addition, subtraction': 
+        move5()
+        text= 'I know I liked you!!!'
+        setTimeout(() => {
+            youWon();
+          }, 3000)
+        break;
+        case 'PARENTHESIS, EXPONENTS, MULTIPLICATION, DIVISION, ADDITION, SUBTRACTION': 
         move5()
         text= 'I know I liked you!!!'
         setTimeout(() => {
